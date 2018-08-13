@@ -5,8 +5,8 @@ This repo contains:
 4. Brute Force (solutions.cpp)
 
 INPUT:
-Deterministic Annealing: (9 arguments)
-./potts_spin 2 3 -random -max 100 0.01 10 100
+Deterministic Annealing: (11 arguments)
+./potts_spin 2 3 -random -max -exact -default 100 0.01 10 100
 ./potts_spin $no_of_vehicles$ $no_of_tasks$ $-random_or_-read$ $-max_or_-sum$ $kT_start$ $kT_end$ $kT_fac$ $gamma$
 
 Simulated Annealing: (8 arguments)
@@ -23,3 +23,5 @@ Random Search: (6 arguments)
 OTHER OPTIONS:
 -random or -read
 -max or -sum
+-exact or -SM
+-default or -trace
